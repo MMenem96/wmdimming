@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:chainUseRtl="false"
+    tools:context=".settings.SettingsFragment">
+
+    <TextView
+        android:id="@+id/tvSettingsName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkPurple"
+        android:gravity="center"
+        android:minHeight="?android:attr/actionBarSize"
+        android:text="@string/settings"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvChangeIPAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_ip_address"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_ip_address"
+        android:padding="5dp"
+        android:text="@string/ip_address"
+        android:textColor="@color/settingsColorText"
+        android:textSize="@dimen/text_20_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/darker_gray" />
+</LinearLayout>

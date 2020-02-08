@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--CommonColors-->
+    <color name="grey">#e6e6e6</color>
+    <color name="buttomNavigationInactive">#d3bce6</color>
+    <color name="white">#fff</color>
+    <color name="darkPurple">#764699</color>
+    <color name="lightPurple">#974298</color>
+
+
+    <!--HomeFragmentColors-->
+    <color name="app_name_bg">#a9a9a9</color>
+
+    <!--SettingsFragmentColors-->
+    <color name="settingsColorText">#000000</color>
+
+
+</resources>

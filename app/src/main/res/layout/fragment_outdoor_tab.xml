@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/outDoorSwipRefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".places.OutdoorTab">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/loadOutdoorStatus"
+            style="@android:style/Widget.DeviceDefault.ProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:indeterminateOnly="true"
+            android:visibility="visible" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvOutdoors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <ImageView
+            android:id="@+id/ivCouldntLoadData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_couldnt_load_data"
+            android:visibility="gone" />
+    </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

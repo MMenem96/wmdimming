@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:padding="3dp"
+    app:cardCornerRadius="20dp">
+
+
+    <LinearLayout
+        android:id="@+id/llGardenLights"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_light_bulb" />
+
+        <TextView
+            android:id="@+id/tvGardennLightName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/light"
+            android:textColor="@color/darkPurple"
+            android:textSize="@dimen/text_16_size" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_purple" />
+
+        <ImageButton
+            android:id="@+id/imgBtnTurnLights"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:src="@drawable/ic_off" />
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">WMDimming</string>
+
+
+    <!--HomeActivity button navigation-->
+    <string name="menu_home">Home</string>
+    <string name="menu_places">Places</string>
+    <string name="menu_settings">Settings</string>
+
+    <!--PlacesActivity-->
+    <string name="places">Places</string>
+    <string name="rooms">Rooms</string>
+    <string name="outdoors">Outdoor</string>
+    <string name="no_rooms_yet">No rooms yet!</string>
+
+    <!--SharedPrefs Keys & Defaults-->
+    <string name="IP_ADDRESS_KEY">ip-address</string>
+    <string name="IP_ADDRESS_HINT">http://x.x.x.x</string>
+    <string name="ip_address">Change IP address</string>
+
+    <string name="settings">Settings</string>
+
+    <!--OutDoors-->
+    <string name="garden">Garden</string>
+    <string name="gate">Gate</string>
+    <string name="light">Light</string>
+    <string name="lights">Lights</string>
+    <string name="OFF">OFF</string>
+    <string name="on">ON</string>
+    <string name="enter_password_to_change_ip">Enter Password to change IP</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="password">Password</string>
+    <string name="password_hint">********</string>
+    <string name="admin_password">Admin password</string>
+    <string name="admin_validation_password">amrwmd</string>
+    <string name="good_morning">Good Morning :)!</string>
+    <string name="good_afternoon">Good Afternoon :)!</string>
+    <string name="good_evening">Good Evening :)!</string>
+    <string name="good_night">Good Night :)!</string>
+
+
+</resources>
